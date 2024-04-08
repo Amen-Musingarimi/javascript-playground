@@ -53,15 +53,28 @@ console.log(age);
 /**************************************
  * Basic Operators
  **************************************/
-const firstName = 'Amen';
+const firstNameAmen = 'Amen';
+const firstNameMark = 'Mark';
 const ageAmen = 29;
+const ageMark = 33;
+const amenHeight = 1.65;
 const currentYear = 2024;
 
 // Math Operators
 const yearAmen = currentYear - ageAmen;
 const yearPalmer = currentYear - 33;
 
-console.log(`${firstName} is ${ageAmen} and was born in ${yearAmen}.`);
+console.log(`${firstNameAmen} is ${ageAmen} and was born in ${yearAmen}.`);
 console.log(currentYear * 2);
 console.log(currentYear + 2);
 console.log(currentYear / 2);
+
+// Logical Operators
+const amenOlder = ageAmen > ageMark;
+console.log(amenOlder);
+
+// Typeof Operators
+console.log(typeof amenOlder);
+console.log(typeof ageAmen);
+console.log(typeof firstNameAmen);
+console.log(typeof amenHeight);
