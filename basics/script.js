@@ -26,3 +26,16 @@ const firstName = 'Amen';
 const age = 29;
 
 console.log(firstName + ' ' + age);
+const job = 'Sofware Developer';
+const isMArried = false;
+
+console.log(
+  firstName +
+    'is a ' +
+    age +
+    ' year old ' +
+    job +
+    '. Is he married? ' +
+    ':' +
+    isMArried
+);
