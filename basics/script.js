@@ -22,6 +22,7 @@ console.log(job);
 /**************************************
  * Variable Mutation and Type Coercion
  **************************************/
+/*
 const firstName = 'Amen';
 let age = 29;
 
@@ -39,9 +40,23 @@ console.log(
     ':' +
     isMArried
 );
+*/
 
 /**************************************
- * Variable Mutation and Type Coercion
+ * Type Coercion
  **************************************/
+/*
 age = 'Twenty Nine';
 console.log(age);
+*/
+
+/**************************************
+ * Basic Operators
+ **************************************/
+const firstName = 'Amen';
+const ageAmen = 29;
+const currentYear = 2024;
+const yearAmen = currentYear - ageAmen;
+const yearPalmer = currentYear - 33;
+
+console.log(`${firstName} is ${ageAmen} and was born in ${yearAmen}.`);
