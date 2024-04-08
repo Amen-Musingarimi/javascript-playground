@@ -23,7 +23,7 @@ console.log(job);
  * Variable Mutation and Type Coercion
  **************************************/
 const firstName = 'Amen';
-const age = 29;
+let age = 29;
 
 console.log(firstName + ' ' + age);
 const job = 'Sofware Developer';
@@ -39,3 +39,9 @@ console.log(
     ':' +
     isMArried
 );
+
+/**************************************
+ * Variable Mutation and Type Coercion
+ **************************************/
+age = 'Twenty Nine';
+console.log(age);
