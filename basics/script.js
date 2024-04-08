@@ -56,7 +56,12 @@ console.log(age);
 const firstName = 'Amen';
 const ageAmen = 29;
 const currentYear = 2024;
+
+// Math Operators
 const yearAmen = currentYear - ageAmen;
 const yearPalmer = currentYear - 33;
 
 console.log(`${firstName} is ${ageAmen} and was born in ${yearAmen}.`);
+console.log(currentYear * 2);
+console.log(currentYear + 2);
+console.log(currentYear / 2);
