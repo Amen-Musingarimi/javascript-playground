@@ -52,18 +52,25 @@ console.log(age);
 
 /**************************************
  * Basic Operators
- **************************************/
+
+/***************************************/
+/*
 const firstNameAmen = 'Amen';
 const firstNameMark = 'Mark';
 const ageAmen = 29;
 const ageMark = 33;
 const amenHeight = 1.65;
 const currentYear = 2024;
+*/
 
 // Math Operators
+/*
 const yearAmen = currentYear - ageAmen;
 const yearPalmer = currentYear - 33;
-
+*/
+console.log(2 ** 2); // Double asterick means squared. Expected result is 4
+console.log(4 ** 2); // Expexted result is 16
+/*
 console.log(`${firstNameAmen} is ${ageAmen} and was born in ${yearAmen}.`);
 console.log(currentYear * 2);
 console.log(currentYear + 2);
@@ -78,3 +85,4 @@ console.log(typeof amenOlder);
 console.log(typeof ageAmen);
 console.log(typeof firstNameAmen);
 console.log(typeof amenHeight);
+*/
