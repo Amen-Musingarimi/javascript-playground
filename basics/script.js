@@ -73,7 +73,7 @@ console.log(currentYear / 2);
 const amenOlder = ageAmen > ageMark;
 console.log(amenOlder);
 
-// Typeof Operators
+// Typeof Operator
 console.log(typeof amenOlder);
 console.log(typeof ageAmen);
 console.log(typeof firstNameAmen);
